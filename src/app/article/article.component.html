@@ -1,0 +1,16 @@
+<div class="box-body table-responsive">
+    <table style="background-color:white" class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Article</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let article of articles">
+                <td>{{ article.title }}</td>
+                <td>{{ article.body }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
